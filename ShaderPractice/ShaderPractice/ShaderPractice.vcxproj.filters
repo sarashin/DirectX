@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SourceFile\Main.cpp" />
+    <ClCompile Include="SourceFile\stdafx.cpp" />
+    <ClCompile Include="SourceFile\Window.cpp" />
+    <ClCompile Include="SourceFile\DxBase.cpp" />
+    <ClCompile Include="SourceFile\Application.cpp" />
+    <ClCompile Include="SourceFile\D3Device.cpp" />
+    <ClCompile Include="SourceFile\MeshObjectFactory.cpp" />
+    <ClCompile Include="SourceFile\Mesh.cpp" />
+    <ClCompile Include="SourceFile\SceneFactory.cpp" />
+    <ClCompile Include="SourceFile\SceneManager.cpp" />
+    <ClCompile Include="SourceFile\Camera.cpp" />
+    <ClCompile Include="SourceFile\MeshObject.cpp" />
+    <ClCompile Include="SourceFile\GameObject.cpp" />
+    <ClCompile Include="SourceFile\GameScene.cpp" />
+    <ClCompile Include="SourceFile\Light.cpp" />
+    <ClCompile Include="SourceFile\MyAnimation.cpp" />
+    <ClCompile Include="SourceFile\SpriteObject.cpp" />
+    <ClCompile Include="SourceFile\Sprite.cpp" />
+    <ClCompile Include="SourceFile\Transform.cpp" />
+    <ClCompile Include="SourceFile\SceneMain.cpp" />
+    <ClCompile Include="SourceFile\MySkelton.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeaderFile\MemoryLeaks.h" />
+    <ClInclude Include="HeaderFile\Singleton.h" />
+    <ClInclude Include="HeaderFile\stdafx.h" />
+    <ClInclude Include="HeaderFile\Window.h" />
+    <ClInclude Include="HeaderFile\Application.h" />
+    <ClInclude Include="HeaderFile\DxBase.h" />
+    <ClInclude Include="HeaderFile\D3Device.h" />
+    <ClInclude Include="HeaderFile\MeshObjectFactory.h" />
+    <ClInclude Include="HeaderFile\Mesh.h" />
+    <ClInclude Include="HeaderFile\SceneFactory.h" />
+    <ClInclude Include="HeaderFile\SceneManager.h" />
+    <ClInclude Include="HeaderFile\SceneBase.h" />
+    <ClInclude Include="HeaderFile\Camera.h" />
+    <ClInclude Include="HeaderFile\MeshObject.h" />
+    <ClInclude Include="HeaderFile\GameObject.h" />
+    <ClInclude Include="HeaderFile\GameScene.h" />
+    <ClInclude Include="HeaderFile\Light.h" />
+    <ClInclude Include="HeaderFile\MyAnimation.h" />
+    <ClInclude Include="HeaderFile\SpriteObject.h" />
+    <ClInclude Include="HeaderFile\Sprite.h" />
+    <ClInclude Include="HeaderFile\Transform.h" />
+    <ClInclude Include="HeaderFile\SceneMain.h" />
+    <ClInclude Include="HeaderFile\MySkelton.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Debug\ShaderPractice.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\ShaderPractice.tlog\ShaderPractice.lastbuildstate" />
+    <None Include="Resource\Kouhai_chan.fbx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\skin.png" />
+    <Image Include="Resource\clothes.png" />
+    <Image Include="Resource\eye.png" />
+    <Image Include="Resource\face.png" />
+    <Image Include="Resource\facial.png" />
+    <Image Include="Resource\hair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\VertexShader.hlsl" />
+    <FxCompile Include="Shader\PixelShader.hlsl" />
+  </ItemGroup>
+</Project>
